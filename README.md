@@ -28,8 +28,8 @@ This repository contains Excel reports and dashboards I created as part of the A
 
 - **Project Objective:**
 
-   **1.** Build [P&L reports by Fiscal Year (https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20FY.pdf)and Month(https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20Months.pdf)] to track profitability trends.  
-   **2.** Create [Market-wise P&L reports][Report-1](https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20Markets-Report-1.pdf) [Report-2](https://github.com/Sowmi26/Sales-Analytics/blob/main/Report-2.pdf)o assess financial performance by region.  
+   **1.** Build [P&L reports by Fiscal Year](https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20FY.pdf) and [by Month](https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20Months.pdf) to track profitability trends.    
+   **2.** Create market-level P&L reports: [Report-1](https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20Markets-Report-1.pdf) and [Report-2](https://github.com/Sowmi26/Sales-Analytics/blob/main/Report-2.pdf) to assess financial performance by region.    
    **3.** Analyze cost structures and gross margins to evaluate business efficiency.
 
 - **Purpose of Finance Analytics:**  
