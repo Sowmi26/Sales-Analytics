@@ -1,11 +1,11 @@
-# 📊 AtliQ Hardware – Excel Business Analytics Project
+# AtliQ Hardware – Excel Business Analytics Project
 **Part of Codebasics Data Analyst Bootcamp 4.0 – Excel Module**
 
 This repository contains Excel reports and dashboards I created as part of the AtliQ Hardware case study during the Codebasics Bootcamp. The goal of this project was to analyze sales and financial performance using Excel and derive actionable business insights.
 
 ---
 
-## 📊 Sales Report
+## Sales Report
 
 - **Project Objective:**
 
@@ -24,7 +24,7 @@ This repository contains Excel reports and dashboards I created as part of the A
 
 ---
 
-## 💰 Finance Report
+## Finance Report
 
 - **Project Objective:**
 
@@ -43,7 +43,7 @@ This repository contains Excel reports and dashboards I created as part of the A
 
 ---
 
-## 🛠 Technical & Soft Skills
+##  Technical & Soft Skills
 
 - [x] ETL process execution using Excel (Extract, Transform, Load)  
 - [x] Power Query: Date table generation, transformations, and joins  
@@ -54,7 +54,7 @@ This repository contains Excel reports and dashboards I created as part of the A
 
 ---
 
-## 💬 Soft Skills Gained
+##  Soft Skills Gained
 
 - [x] Interpreting and presenting business reports clearly  
 - [x] Designing intuitive, user-focused dashboards  
