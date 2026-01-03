@@ -4,16 +4,16 @@ AtliQ Hardware is a company manufacturing Hardware components like Personal Comp
 ## Business Model:
 Atliq reaches its end consumers through two different platforms: Brick-and-mortar stores and e-Commerce.  
 They have three different channels for product distribution:  
-  Retailer - Croma, Amazon
-  Direct - AtliQ exclusive, AtliQ e-store
-  Distributors - NEPTUNE 
+  - Retailer - Croma, Amazon
+  - Direct - AtliQ exclusive, AtliQ e-store
+  - Distributors - NEPTUNE 
 
  ## Requirements:
-**1. Customer Performance Report:** 
+  1. **Customer Performance Report:** 
      Comparing the Net Sales of each customer for the years - 2019, 2020, 2021.
-**2. Market Performance Report:**
+  2. **Market Performance Report:**
      Comparing the Net Sales across different countries for the years - 2019, 2020, 2021, comparing target vs actual Net Sales.
-**3. Profit & Loss(P&L) statement:**
+  3. **Profit & Loss(P&L) statement:**
      This report should provide Net Sales along with key metrics like COGS, Gross Margin, and GM% for yearly, monthly, and quarterly.
 
 ## Methodology:
