@@ -1,63 +1,54 @@
-# AtliQ Hardware – Excel Business Analytics Project
-**Part of Codebasics Data Analyst Bootcamp 4.0 – Excel Module**
+## Business Problem:
+AtliQ Hardware is a company manufacturing Hardware components like Personal Computers, laptops, mouse etc.  As their business is expanding, the amount of data generated is also expanding, so the Business leaders of the company decided to adopt Data Analytics into their company.  In this project, I have built reports like Sales and Finance Analytics for better decision-making.
 
-This repository contains Excel reports and dashboards I created as part of the AtliQ Hardware case study during the Codebasics Bootcamp. The goal of this project was to analyze sales and financial performance using Excel and derive actionable business insights.
+## Business Model:
+Atliq reaches its end consumers through two different platforms: Brick-and-mortar stores and e-Commerce.  
+They have three different channels for product distribution:  
+  Retailer - Croma, Amazon
+  Direct - AtliQ exclusive, AtliQ e-store
+  Distributors - NEPTUNE 
 
----
+ ## Requirements:
+**1. Customer Performance Report:** 
+     Comparing the Net Sales of each customer for the years - 2019, 2020, 2021.
+**2. Market Performance Report:**
+     Comparing the Net Sales across different countries for the years - 2019, 2020, 2021, comparing target vs actual Net Sales.
+**3. Profit & Loss(P&L) statement:**
+     This report should provide Net Sales along with key metrics like COGS, Gross Margin, and GM% for yearly, monthly, and quarterly.
 
-## Sales Report
+## Methodology:
+1. **Data collection:**  Datasets containing three dimensions tables - dim_customers, dim_product, dim_market, and a fact table - fact_sales_monthly
+2. **ETL(Extract, Transform, Load):**
+     Extract .csv files into Excel,
+     Transforming the data to identify and correct inaccuracies, inconsistencies, and errors in data using Power Query,
+     Reload the data into Excel for data modeling and analysis.
+3. **Data Modelling:** Using a Star schema, I have created relationships between the dimensions and the fact table in Power Pivot.
+4. **Data Analysis / Report Generation:** Based on the given requirement, the reports are generated to help the stakeholders to make better business decisions.
 
-- **Project Objective:**
+## Report 1- Sales Analytics:
+**Customer Performance Report:**
+- The YoY Net Sales data provides a baseline to measure current performance against past results
+- It also helps with Performance monitoring and to set realistic and informed sales targets.
+- To identify which customers generate more revenue, so the business can explore more opportunities for upselling or cross-selling.
 
-   **1.** Develop a [Customer Performance Report](https://github.com/Sowmi26/Sales-Analytics/blob/main/Customer%20Performance%20Report.pdf) to track YoY growth across various retail and online channels.  
-   **2.** Perform a detailed analysis of [market performance vs sales targets](https://github.com/Sowmi26/Sales-Analytics/blob/main/MarketPerformance%20vs%20Target.pdf) to identify underperforming and high-potential regions.  
-   **3.** Generate category-level reports to assess product sales, growth, and market entry.
+**Market Performance Report:**
+- To identify High-performing markets to allocate strategic resources to increase profit, and implement different strategies to recover underperforming markets.
+- Helps marketing teams to implement targeted marketing campaigns to improve ROI.
 
-- **Purpose of Sales Analytics:**  
-  Enable stakeholders to evaluate product, division, and market performance, supporting data-driven decisions around pricing, inventory, and expansion.
+## Report 2 - Finance Analytics
+**P&L Report:**
+- The P&L is a critical tool for creating and adjusting budgets
+- To track business performance towards its financial goals.
+- As it covers COGS and other expenses, it helps in expense management.
+- By understanding the gross margin, businesses can assess if current pricing structures are sufficient to cover operating expenses and generate desired profit levels.
 
-- **Importance of Analyzing Sales Data:**  
-  Reveal trends, spot high/low performers, and track KPIs such as growth rate, volume sold, and regional contribution.
+## Technical skills:
+- Power Query - To extract and transform data
+- Power Pivot - For Data Modelling
+- Dax - To create measures for calculating YoY growth %, Actual vs Target Net Sales, Growth Margin and other business metrics
+- Pivot Table - For report generation
 
-- **Role of Reports:**  
-  Assist in strategic planning, optimize promotions and product mix, and uncover new growth opportunities across global markets.
+## Contact:
+[LinkedIn](https://www.linkedin.com/in/sowmiyamuralidharan/)
 
----
 
-## Finance Report
-
-- **Project Objective:**
-
-   **1.** Build [P&L reports by Fiscal Year](https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20FY.pdf) and [by Month](https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20Months.pdf) to track profitability trends.    
-   **2.** Create market-level P&L reports: [Report-1](https://github.com/Sowmi26/Sales-Analytics/blob/main/P%26L%20Markets-Report-1.pdf) and [Report-2](https://github.com/Sowmi26/Sales-Analytics/blob/main/Report-2.pdf) to assess financial performance by region.    
-   **3.** Analyze cost structures and gross margins to evaluate business efficiency.
-
-- **Purpose of Finance Analytics:**  
-  Support financial planning, track operational efficiency, and provide transparency to leadership and stakeholders.
-
-- **Importance of Analyzing Finance Data:**  
-  Enables effective budgeting, identifies cost drivers, and supports forecasting and strategic financial decisions.
-
-- **Role of Reports:**  
-  Ensure financial alignment with company goals, monitor gross margin trends, and instill confidence in AtliQ’s financial health.
-
----
-
-##  Technical & Soft Skills
-
-- [x] ETL process execution using Excel (Extract, Transform, Load)  
-- [x] Power Query: Date table generation, transformations, and joins  
-- [x] Power Pivot: Building data models and defining relationships  
-- [x] Derived time intelligence metrics like fiscal quarters and months  
-- [x] Business metrics using calculated fields and measures  
-- [x] Dashboard development using Pivot Tables, Slicers, and KPIs
-
----
-
-##  Soft Skills Gained
-
-- [x] Interpreting and presenting business reports clearly  
-- [x] Designing intuitive, user-focused dashboards  
-- [x] Developing a structured approach to report creation  
-- [x] Gaining business context behind sales and finance metrics  
-- [x] Staying consistent, motivated, and solution-oriented throughout the project
